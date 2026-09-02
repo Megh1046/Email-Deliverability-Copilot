@@ -1,0 +1,757 @@
+[
+  {
+    "domain": "google.com",
+    "selector": "google",
+    "category": "Excellent",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "DMARC-017"
+    ],
+    "recommendations": [
+      "DKIM-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [
+      "UNEXPECTED_BAND: got 'POOR', expected one of ['EXCELLENT', 'GOOD']"
+    ],
+    "result": "WARN",
+    "elapsed_s": 7.48,
+    "error": null,
+    "notes": "Google — canonical best-practice reference domain"
+  },
+  {
+    "domain": "microsoft.com",
+    "selector": "selector1",
+    "category": "Excellent",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "XPRO-001",
+      "DMARC-017",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "DKIM-001",
+      "XPRO-001",
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-003",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [
+      "UNEXPECTED_BAND: got 'POOR', expected one of ['EXCELLENT', 'GOOD']"
+    ],
+    "result": "WARN",
+    "elapsed_s": 10.57,
+    "error": null,
+    "notes": "Microsoft — enterprise email infrastructure"
+  },
+  {
+    "domain": "cloudflare.com",
+    "selector": "google",
+    "category": "Excellent",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "XPRO-001",
+      "DMARC-017",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "DKIM-001",
+      "XPRO-001",
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-003",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [
+      "UNEXPECTED_BAND: got 'POOR', expected one of ['EXCELLENT', 'GOOD']"
+    ],
+    "result": "WARN",
+    "elapsed_s": 10.65,
+    "error": null,
+    "notes": "Cloudflare — infrastructure company, strong auth expected"
+  },
+  {
+    "domain": "github.com",
+    "selector": "google",
+    "category": "Excellent",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "XPRO-001",
+      "DMARC-017",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "DKIM-001",
+      "XPRO-001",
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-003",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [
+      "UNEXPECTED_BAND: got 'POOR', expected one of ['EXCELLENT', 'GOOD']"
+    ],
+    "result": "WARN",
+    "elapsed_s": 15.75,
+    "error": null,
+    "notes": "GitHub — developer platform, full auth expected"
+  },
+  {
+    "domain": "stripe.com",
+    "selector": "google",
+    "category": "Excellent",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DMARC-017",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-003"
+    ],
+    "violations": [],
+    "expectation_failures": [
+      "UNEXPECTED_BAND: got 'POOR', expected one of ['EXCELLENT', 'GOOD']"
+    ],
+    "result": "WARN",
+    "elapsed_s": 10.63,
+    "error": null,
+    "notes": "Stripe — fintech, PCI/compliance drives strong email security"
+  },
+  {
+    "domain": "apple.com",
+    "selector": "apple",
+    "category": "Good",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "XPRO-001",
+      "DMARC-017",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "DKIM-001",
+      "XPRO-001",
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-003",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [
+      "UNEXPECTED_BAND: got 'POOR', expected one of ['EXCELLENT', 'GOOD', 'AT_RISK']"
+    ],
+    "result": "WARN",
+    "elapsed_s": 10.65,
+    "error": null,
+    "notes": "Apple — large enterprise, good auth expected"
+  },
+  {
+    "domain": "amazon.com",
+    "selector": "google",
+    "category": "Good",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "XPRO-001",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "DKIM-001",
+      "XPRO-001",
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-003",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [
+      "UNEXPECTED_BAND: got 'POOR', expected one of ['EXCELLENT', 'GOOD', 'AT_RISK']"
+    ],
+    "result": "WARN",
+    "elapsed_s": 10.77,
+    "error": null,
+    "notes": "Amazon — major e-commerce, DKIM selector varies"
+  },
+  {
+    "domain": "shopify.com",
+    "selector": "google",
+    "category": "Good",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DMARC-017",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-003"
+    ],
+    "violations": [],
+    "expectation_failures": [
+      "UNEXPECTED_BAND: got 'POOR', expected one of ['EXCELLENT', 'GOOD', 'AT_RISK']"
+    ],
+    "result": "WARN",
+    "elapsed_s": 10.61,
+    "error": null,
+    "notes": "Shopify — modern SaaS e-commerce"
+  },
+  {
+    "domain": "notion.so",
+    "selector": "google",
+    "category": "Good",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "XPRO-001",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "DKIM-001",
+      "XPRO-001",
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-003",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [
+      "UNEXPECTED_BAND: got 'POOR', expected one of ['EXCELLENT', 'GOOD', 'AT_RISK']"
+    ],
+    "result": "WARN",
+    "elapsed_s": 10.65,
+    "error": null,
+    "notes": "Notion — SaaS, Google Workspace likely"
+  },
+  {
+    "domain": "figma.com",
+    "selector": "google",
+    "category": "Good",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "SPF-001"
+    ],
+    "recommendations": [
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-003"
+    ],
+    "violations": [],
+    "expectation_failures": [
+      "UNEXPECTED_BAND: got 'POOR', expected one of ['EXCELLENT', 'GOOD', 'AT_RISK']"
+    ],
+    "result": "WARN",
+    "elapsed_s": 10.7,
+    "error": null,
+    "notes": "Figma — design SaaS, likely uses Google Workspace"
+  },
+  {
+    "domain": "reddit.com",
+    "selector": "google",
+    "category": "DMARC p=none",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "XPRO-001",
+      "DMARC-017",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "DKIM-001",
+      "XPRO-001",
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-003",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [],
+    "result": "PASS",
+    "elapsed_s": 15.73,
+    "error": null,
+    "notes": "Reddit — historically p=none DMARC"
+  },
+  {
+    "domain": "wikipedia.org",
+    "selector": "wikimedia",
+    "category": "DMARC p=none",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "DMARC-017"
+    ],
+    "recommendations": [
+      "DKIM-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [],
+    "result": "PASS",
+    "elapsed_s": 0.56,
+    "error": null,
+    "notes": "Wikipedia — nonprofit, may have p=none"
+  },
+  {
+    "domain": "twitch.tv",
+    "selector": "google",
+    "category": "DMARC p=none",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DMARC-017",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-003"
+    ],
+    "violations": [],
+    "expectation_failures": [],
+    "result": "PASS",
+    "elapsed_s": 10.65,
+    "error": null,
+    "notes": "Twitch — gaming platform, DMARC enforcement partial"
+  },
+  {
+    "domain": "discord.com",
+    "selector": "google",
+    "category": "DMARC p=none",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "DMARC-017"
+    ],
+    "recommendations": [
+      "DKIM-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [
+      "UNEXPECTED_BAND: got 'POOR', expected one of ['EXCELLENT', 'GOOD', 'AT_RISK']"
+    ],
+    "result": "WARN",
+    "elapsed_s": 1.09,
+    "error": null,
+    "notes": "Discord — modern SaaS, DMARC status varies"
+  },
+  {
+    "domain": "bbc.co.uk",
+    "selector": "google",
+    "category": "Missing DMARC",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "XPRO-001",
+      "DMARC-017",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "DKIM-001",
+      "XPRO-001",
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-003",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [],
+    "result": "PASS",
+    "elapsed_s": 10.58,
+    "error": null,
+    "notes": "BBC UK — news org, DMARC gaps common in media"
+  },
+  {
+    "domain": "archive.org",
+    "selector": "google",
+    "category": "Missing DMARC",
+    "score": 100,
+    "score_band": "EXCELLENT",
+    "active_insights": [],
+    "recommendations": [],
+    "business_insights": [],
+    "violations": [],
+    "expectation_failures": [
+      "UNEXPECTED_BAND: got 'EXCELLENT', expected one of ['AT_RISK', 'POOR', 'CRITICAL']"
+    ],
+    "result": "WARN",
+    "elapsed_s": 0.89,
+    "error": null,
+    "notes": "Internet Archive — nonprofit, may lack DMARC"
+  },
+  {
+    "domain": "craigslist.org",
+    "selector": "google",
+    "category": "Missing DMARC",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "XPRO-001",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "DKIM-001",
+      "XPRO-001",
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-003",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [],
+    "result": "PASS",
+    "elapsed_s": 15.64,
+    "error": null,
+    "notes": "Craigslist — legacy system, expected weak email security"
+  },
+  {
+    "domain": "sourceforge.net",
+    "selector": "google",
+    "category": "Missing DMARC",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "XPRO-001",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "DKIM-001",
+      "XPRO-001",
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-003",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [],
+    "result": "PASS",
+    "elapsed_s": 10.62,
+    "error": null,
+    "notes": "SourceForge — legacy platform, email security gap likely"
+  },
+  {
+    "domain": "aol.com",
+    "selector": "google",
+    "category": "Weak SPF",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "XPRO-001",
+      "DMARC-017",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "DKIM-001",
+      "XPRO-001",
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-003",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [],
+    "result": "PASS",
+    "elapsed_s": 10.67,
+    "error": null,
+    "notes": "AOL — legacy provider, SPF complexity expected"
+  },
+  {
+    "domain": "hotmail.com",
+    "selector": "google",
+    "category": "Weak SPF",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001"
+    ],
+    "recommendations": [
+      "DKIM-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [],
+    "result": "PASS",
+    "elapsed_s": 0.49,
+    "error": null,
+    "notes": "Hotmail — legacy domain, may use complex SPF chains"
+  },
+  {
+    "domain": "protonmail.com",
+    "selector": "google",
+    "category": "Weak SPF",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001"
+    ],
+    "recommendations": [
+      "DKIM-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [
+      "UNEXPECTED_BAND: got 'POOR', expected one of ['GOOD', 'AT_RISK', 'EXCELLENT']"
+    ],
+    "result": "WARN",
+    "elapsed_s": 1.0,
+    "error": null,
+    "notes": "ProtonMail — privacy-focused, may have custom SPF"
+  },
+  {
+    "domain": "php.net",
+    "selector": "google",
+    "category": "Missing DKIM",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001"
+    ],
+    "recommendations": [
+      "DKIM-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [],
+    "result": "PASS",
+    "elapsed_s": 0.61,
+    "error": null,
+    "notes": "php.net — OSS project, likely no Google DKIM selector"
+  },
+  {
+    "domain": "kernel.org",
+    "selector": "google",
+    "category": "Missing DKIM",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001"
+    ],
+    "recommendations": [
+      "DKIM-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [],
+    "result": "PASS",
+    "elapsed_s": 0.51,
+    "error": null,
+    "notes": "Linux kernel — OSS project, custom mail infra expected"
+  },
+  {
+    "domain": "apache.org",
+    "selector": "google",
+    "category": "Missing DKIM",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001"
+    ],
+    "recommendations": [
+      "DKIM-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [],
+    "result": "PASS",
+    "elapsed_s": 8.43,
+    "error": null,
+    "notes": "Apache foundation — custom mail servers, no Google DKIM"
+  },
+  {
+    "domain": "gnu.org",
+    "selector": "google",
+    "category": "Missing DKIM",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001"
+    ],
+    "recommendations": [
+      "DKIM-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [],
+    "result": "PASS",
+    "elapsed_s": 0.51,
+    "error": null,
+    "notes": "GNU project — independent mail infra, DKIM unlikely with google selector"
+  },
+  {
+    "domain": "thisdoesnotexist-abc-xyz-999.com",
+    "selector": "(none)",
+    "category": "Invalid",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "XPRO-001",
+      "DMARC-001",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "DKIM-001",
+      "XPRO-001",
+      "DMARC-001",
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-002",
+      "BIZ-003",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [],
+    "result": "PASS",
+    "elapsed_s": 0.41,
+    "error": null,
+    "notes": "Non-existent domain — should get CRITICAL scores"
+  },
+  {
+    "domain": "notareal-domain-test-abc123.org",
+    "selector": "(none)",
+    "category": "Invalid",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "XPRO-001",
+      "DMARC-001",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "DKIM-001",
+      "XPRO-001",
+      "DMARC-001",
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-002",
+      "BIZ-003",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [],
+    "result": "PASS",
+    "elapsed_s": 0.44,
+    "error": null,
+    "notes": "Non-existent domain — NXDOMAIN expected"
+  },
+  {
+    "domain": "fake-broken-invalid-domain-xyz.net",
+    "selector": "(none)",
+    "category": "Invalid",
+    "score": 49,
+    "score_band": "POOR",
+    "active_insights": [
+      "DKIM-001",
+      "XPRO-001",
+      "DMARC-001",
+      "SPF-001"
+    ],
+    "recommendations": [
+      "DKIM-001",
+      "XPRO-001",
+      "DMARC-001",
+      "SPF-001"
+    ],
+    "business_insights": [
+      "BIZ-001",
+      "BIZ-002",
+      "BIZ-003",
+      "BIZ-006"
+    ],
+    "violations": [],
+    "expectation_failures": [],
+    "result": "PASS",
+    "elapsed_s": 0.42,
+    "error": null,
+    "notes": "Non-existent domain — all protocols should fail"
+  }
+]
